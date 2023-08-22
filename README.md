@@ -1,5 +1,5 @@
-# docoments
-文档检索和存储平台
+# ALL Docs
+一个文档检索和存储平台
 
 管理员账号:admin123 密码：admin123456
 
