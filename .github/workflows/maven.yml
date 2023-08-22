@@ -5,9 +5,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
     - name: Publish Docker
       uses: elgohr/Publish-Docker-Github-Action@v5
       with:
-        name: jarrettluo/all-docs
+        name: 1246373862/documents
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PWD }}
         tags: latest
