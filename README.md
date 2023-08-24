@@ -1,19 +1,11 @@
 # ALL Docs
-:love_letter:一个文档检索和存储平台
+:rocket:一个文档检索和存储平台:rocket:
 
 管理员账号:admin123 密码：admin123456
 
 在线地址：http://20.187.96.43
 
-# bug和一些todu
-<ul>
-<li>ppt，pptx, doc 暂时没有想到更好的解决办法,预览的时候采用原始文件转成pdf文件,然后再进行预览操作 </li>
-<li>记录用户上次阅读的页数</li> :stars:
-<li>Third item</li>
-<li>Fourth item</li>
-</ul>
-
-
+# 开发随记和一些功能展示
 
 // 用户搜索内容进行采集； // 用户的搜索和评论必须经过防刷；违禁词过滤等。
 
@@ -23,22 +15,7 @@
 
 // 存储热搜榜单
 
-// https://blog.csdn.net/weixin_41725792/article/details/110928066
-
-启动mongodb
-
-./mongod --dbpath=/data/mongo --logpath=/usr/local/mongodb4/db.log --fork
-
-启动es
-
-systemctl start elasticsearch
-在macos上进行安装redis https://www.jianshu.com/p/3bdfda703552
-
-在macos上安装es https://cloud.tencent.com/developer/article/2032233 注意版本适配
-
-// 权限自适应设计 1、是否开启普通用户上传功能 2、是否开启管理员强制审核功能 3、是否开启违禁词提醒功能？
-
-4、文档评审，等待，评审完成，评审失败
+// 权限自适应设计 1、是否开启普通用户上传功能 2、是否开启管理员强制审核功能 3、是否开启违禁词提醒功能？ 4、文档评审，等待，评审完成，评审失败
 
 // 增加用户ip封禁 1、恶意ip检索 2、恶意ip下载 验证码 增加用户封禁功能
 
@@ -57,3 +34,16 @@ systemctl start elasticsearch
 2、删除评论信息
 
 3、删除检索的内容信息
+
+
+# bug和一些todu
+<ul>
+<li>ppt，pptx, doc 暂时没有想到更好的解决办法,预览的时候采用原始文件转成pdf文件,然后再进行预览操作 :warning::warning:</li>
+<li>记录用户上次阅读的页数 :stars:</li>
+<li>搜索页面样式改造 :stars:</li>
+<li>用户对文档进行标记 :stars::stars:</li>
+<li>支持视频文件 :stars::stars:</li>
+<li>支持权限划分 :stars:</li>
+<li>支持文件树 :stars:</li>
+<li>支持Mobi文件 :stars:</li>
+</ul>
