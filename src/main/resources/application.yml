@@ -22,7 +22,6 @@ spring:
     host: ${REDIS_HOST:20.187.96.43}
     password: ${REDIS_PWD:123}
     port: ${REDIS_PORT:6379}
-    timeout: 3000
     jedis:
       pool:
         # 连接池中的最大空闲连接
@@ -32,13 +31,24 @@ spring:
         # 连接池最大连接数（使用负值表示没有限制）
         max-active: 2000
         # 连接池最大阻塞等待时间（使用负值表示没有限制）
-        max-wait: 1000
+        max-wait: -1
     testOnBorrow: true
-
-  servlet:
-    multipart:
-      max-file-size: 300MB
-      max-request-size: 500MB
+#  redis:
+#    database: 5
+#    lettuce:
+#      pool:
+#        max-idle: 8
+#        min-idle: 0
+#        max-active: 8
+#        max-wait: -1ms
+#        shutdown-timeout: 1s
+#    host: ${REDIS_HOST:20.187.96.43}
+#    port: ${REDIS_PORT:6379}
+#    password: ${REDIS_PWD:123}
+#  servlet:
+#    multipart:
+#      max-file-size: 300MB
+#      max-request-size: 500MB
 
 
   thymeleaf:
