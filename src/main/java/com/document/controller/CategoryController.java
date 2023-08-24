@@ -46,6 +46,12 @@ public class CategoryController {
     @Resource
     TagService tagService;
 
+    @ApiOperation(value = "3.3 更新分类", notes = "更新分类")
+    @GetMapping(value = "/test")
+    public BaseApiResult test(){
+        return BaseApiResult.success("测试action");
+    }
+
     @ApiOperation(value = "新增单个分类，可选分类或者标签", notes = "新增单个分类")
     @PostMapping(value = "/insert")
     public BaseApiResult insert(@RequestBody CategoryDTO categoryDTO) {
