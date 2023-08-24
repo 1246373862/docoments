@@ -16,6 +16,7 @@ spring:
       connections-per-host: 20
 
 
+
   redis:
     database: 0
     host: ${REDIS_HOST:20.187.96.43}
