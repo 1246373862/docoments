@@ -7,8 +7,8 @@
 
 # bug和一些todu
 <ul>
-<li>ppt，pptx, doc 暂时没有想到更好的解决办法,预览的时候采用原始文件转成pdf文件,然后再进行预览操作</li>
-<li>记录用户上次阅读的页数</li>
+<li>ppt，pptx, doc 暂时没有想到更好的解决办法,预览的时候采用原始文件转成pdf文件,然后再进行预览操作 </li>
+<li>记录用户上次阅读的页数</li> :stars:
 <li>Third item</li>
 <li>Fourth item</li>
 </ul>
