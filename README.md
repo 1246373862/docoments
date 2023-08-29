@@ -3,7 +3,21 @@
 
 管理员账号:admin123 密码：admin123456
 
+
+
 在线地址：http://20.187.96.43
+
+
+![image](https://github.com/1246373862/docoments/assets/122977428/eb91730b-ff68-4f6e-ba82-02127719ea67)
+
+![image](https://github.com/1246373862/docoments/assets/122977428/5899baa7-1327-4559-bbfb-1dfac13a5a61)
+
+![image](https://github.com/1246373862/docoments/assets/122977428/e1d3f45f-a6e8-409a-bfdd-a1656dce2105)
+
+![image](https://github.com/1246373862/docoments/assets/122977428/ff1efbec-dea3-496a-8722-cabb5739abbd)
+
+![image](https://github.com/1246373862/docoments/assets/122977428/ddf65ea9-d0b2-4f14-abc5-e0e34c9c30bc)
+
 
 # 开发随记和一些功能展示
 
